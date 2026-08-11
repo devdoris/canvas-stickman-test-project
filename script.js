@@ -48,7 +48,7 @@ function drawStickman() {
         const jumpCycle = animationFrame * 0.08;
 
         // The entire body moves together during the jump.
-        bodyY = -Math.abs(Math.sin(jumpCycle)) * 100;
+        bodyY = -Math.abs(Math.sin(jumpCycle)) * 50;
     }
 
 
